@@ -2,7 +2,7 @@
 
 namespace VSharpDataPersistance
 {
-    public class Class1
+    public class VSharpDataPersistance
     {
     }
 }

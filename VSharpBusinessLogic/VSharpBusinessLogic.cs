@@ -2,7 +2,8 @@
 
 namespace VSharpBusinessLogic
 {
-    public class Class1
+    public class VSharpBusinessLogic
     {
+
     }
 }
