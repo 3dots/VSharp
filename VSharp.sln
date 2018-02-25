@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharp", "VSharp\VSharp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpPresentation", "VSharpPresentation\VSharpPresentation.csproj", "{AA707D1F-65A8-4291-9970-F092D9FA02EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpDataAccess", "VSharpDataAccess\VSharpDataAccess.csproj", "{11D5E140-FB65-48C3-BD4F-8AE270A128CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpBusinessLogic", "VSharpBusinessLogic\VSharpBusinessLogic.csproj", "{D1456034-A5AE-4B03-A4A2-8239267BDA59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AA707D1F-65A8-4291-9970-F092D9FA02EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA707D1F-65A8-4291-9970-F092D9FA02EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA707D1F-65A8-4291-9970-F092D9FA02EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D5E140-FB65-48C3-BD4F-8AE270A128CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D5E140-FB65-48C3-BD4F-8AE270A128CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D5E140-FB65-48C3-BD4F-8AE270A128CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D5E140-FB65-48C3-BD4F-8AE270A128CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1456034-A5AE-4B03-A4A2-8239267BDA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1456034-A5AE-4B03-A4A2-8239267BDA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1456034-A5AE-4B03-A4A2-8239267BDA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1456034-A5AE-4B03-A4A2-8239267BDA59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
