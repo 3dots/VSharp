@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharp", "VSharp\VSharp.csproj", "{1B3EB922-6BD9-4352-8D9D-63EFA2C157C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSharp", "VSharp\VSharp.csproj", "{1B3EB922-6BD9-4352-8D9D-63EFA2C157C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpPresentation", "VSharpPresentation\VSharpPresentation.csproj", "{AA707D1F-65A8-4291-9970-F092D9FA02EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSharpWeb", "VSharpPresentation\VSharpWeb.csproj", "{AA707D1F-65A8-4291-9970-F092D9FA02EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpDataAccess", "VSharpDataAccess\VSharpDataAccess.csproj", "{11D5E140-FB65-48C3-BD4F-8AE270A128CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSharpDataAccess", "VSharpDataAccess\VSharpDataAccess.csproj", "{11D5E140-FB65-48C3-BD4F-8AE270A128CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpBusinessLogic", "VSharpBusinessLogic\VSharpBusinessLogic.csproj", "{D1456034-A5AE-4B03-A4A2-8239267BDA59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSharpBusinessLogic", "VSharpBusinessLogic\VSharpBusinessLogic.csproj", "{D1456034-A5AE-4B03-A4A2-8239267BDA59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpDataPersistance", "VSharpDataPersistance\VSharpDataPersistance.csproj", "{CF940CFF-2CE5-42B1-B304-3EF2F9035D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSharpDataPersistance", "VSharpDataPersistance\VSharpDataPersistance.csproj", "{CF940CFF-2CE5-42B1-B304-3EF2F9035D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{5DA896FF-0595-432E-89FB-81448D5D46E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vsc", "vsc", "{8B79703D-C5E7-4CB4-BBBF-2B5D480F1ADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{76C91761-466D-4C85-9929-312193600559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +48,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B3EB922-6BD9-4352-8D9D-63EFA2C157C2} = {8B79703D-C5E7-4CB4-BBBF-2B5D480F1ADA}
+		{AA707D1F-65A8-4291-9970-F092D9FA02EC} = {76C91761-466D-4C85-9929-312193600559}
+		{11D5E140-FB65-48C3-BD4F-8AE270A128CA} = {76C91761-466D-4C85-9929-312193600559}
+		{D1456034-A5AE-4B03-A4A2-8239267BDA59} = {76C91761-466D-4C85-9929-312193600559}
+		{CF940CFF-2CE5-42B1-B304-3EF2F9035D7A} = {76C91761-466D-4C85-9929-312193600559}
+		{8B79703D-C5E7-4CB4-BBBF-2B5D480F1ADA} = {5DA896FF-0595-432E-89FB-81448D5D46E8}
+		{76C91761-466D-4C85-9929-312193600559} = {5DA896FF-0595-432E-89FB-81448D5D46E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84211D06-8BE3-43D5-922D-4698048E3AE8}
