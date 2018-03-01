@@ -6,6 +6,23 @@
 
   <ItemGroup>
     <Folder Include="Dlls\" />
+    <Folder Include="Content\" />
+    <Folder Include="SourceForks\C\" />
+    <Folder Include="SourceForks\FSharp\" />
+    <Folder Include="SourceForks\C++\" />
+    <Folder Include="SourceForks\Java\" />
+    <Folder Include="SourceForks\JavaScript\" />
+    <Folder Include="SourceForks\Go\" />
+    <Folder Include="SourceForks\CSharp\" />
+    <Folder Include="SourceForks\Ruby\" />
+    <Folder Include="SourceForks\x86\" />
+    <Folder Include="SourceForks\TypeScript\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="VSharp.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
   </ItemGroup>
 
 </Project>
