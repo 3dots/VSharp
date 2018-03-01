@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VSharp
+namespace VSharpConsoleApp
 {
-    class IVSharp
+    interface IVsharpConsoleApp
     {
-        //TODO Development Starting Point.
+        void Run();
     }
 }
